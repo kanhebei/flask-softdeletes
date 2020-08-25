@@ -16,12 +16,13 @@ with open(os.path.join(basedir, 'README.md'), encoding='utf-8') as f:
 setup(
     name='Flask-SoftDeletes',
     version=flask_softdeletes.__version__,
-    url='',
+    url='https://github.com/kanhebei/flask-softdeletes',
     license='MIT',
     author='renjianguo',
     author_email='renjianguo@kanhebei.cn',
     description='基于flask-sqlalchemy的软删除实现',
     long_description=long_description,
+    long_description_content_typ='text/markdown',
     zip_safe=False,
     platforms='any',
     install_requires=[
